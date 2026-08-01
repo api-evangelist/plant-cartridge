@@ -1,8 +1,27 @@
 aid: plant-cartridge
 name: Plant Cartridge
-description: Plant Cartridge is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Plant Cartridge is a Malaysian ag-tech company modernizing sustainable agriculture
+  with modular growing systems for indoor and vertical farming. It designs and builds growing
+  environments, supplies growing systems, and offers managed services to cultivate leafy
+  vegetables, herbs, and fruiting vegetables with a faster growth rate while saving water,
+  nutrients, and growing media. Headquartered in Petaling Jaya, Selangor with operations at
+  Technology Park Malaysia in Kuala Lumpur, the company empowers farmers in the ag-tech
+  transformation to help secure the food future. Surfaced as a portfolio company of 500 Global,
+  Plant Cartridge publishes a marketing and news website but no public developer or API surface
+  at this time.
 url: https://raw.githubusercontent.com/api-evangelist/plant-cartridge/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://plantcartridge.com/wp-content/uploads/2021/09/cropped-logo5-192x192.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Agriculture
+- AgTech
+- Vertical Farming
+- Indoor Farming
+- Sustainability
+- Growing Systems
+- Food
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/plant-cartridge-domain-security.yml
 - type: Website
   url: https://plantcartridge.com
+- type: Blog
+  url: https://plantcartridge.com/news/
+- type: Support
+  url: https://plantcartridge.com/contact/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
